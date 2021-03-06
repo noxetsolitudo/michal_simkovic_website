@@ -1,0 +1,22 @@
+$tk-color: #fff700;
+$primary-color: #91170f;
+$light-color: #fff;
+$dark-color: #222;
+$light-dark-color: #333;
+
+$max-width: 1100px;
+
+$font-stack: 'Arial', serif;
+
+%border-shared {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px $light-dark-color dotted;
+  margin-bottom: 1.25rem;
+}
+
+%icon-shared {
+  font-size: 2rem;
+  padding: 0.7rem;
+  border: 2px $primary-color solid;
+  border-radius: 0.5rem;
+}
